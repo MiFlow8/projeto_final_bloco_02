@@ -38,7 +38,7 @@ public class Produto {
     @JsonIgnoreProperties("produto")
     private Categoria categoria;
 
-    // GETTERS E SETTERS
+    // getters e setters
 
     public Long getId() {
         return id;
